@@ -1,9 +1,9 @@
 class Llmaid < Formula
   desc "Throw files against LLMs"
   homepage "https://github.com/awaescher/llmaid"
-  url "https://github.com/awaescher/llmaid/releases/download/1.1.6/llmaid-macos-arm64.tar.gz"
-  sha256 "9ee0635ed763737b03f0fd0f178376e07eca7662e618fce3d7e47638fe4b6af8"
-  version "1.1.6"
+  url "https://github.com/awaescher/llmaid/releases/download/1.1.7/llmaid-macos-arm64.tar.gz"
+  sha256 "8bc4c0c51123f8798b298e1550802b3170e457b201393068b194856f57cd31a4"
+  version "1.1.7"
 
   def install
     bin.install "llmaid"
